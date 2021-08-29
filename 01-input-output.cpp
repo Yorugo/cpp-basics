@@ -22,6 +22,7 @@ int main(int argc, char **argv) {
   auto imSomethingElse = "I'm a String";
 
   // Printing
+  // Booleans are printing as integers
   printf("Boolean : %d\n", imBoolean);
   printf("Character : %c\n", imChar);
   printf("Integer : %d\n", imInt);
@@ -30,6 +31,7 @@ int main(int argc, char **argv) {
   printf("Auto(String) : %s\n", imSomethingElse);
 
   // We can also print like this
+  // Booleans are printing as integers
   cout << "Boolean : " << imBoolean << endl;
   cout << "Character : " << imChar << endl;
   cout << "Integer : " << imInt << endl;
